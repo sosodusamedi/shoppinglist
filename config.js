@@ -8,7 +8,7 @@ export const port = env.PORT || 3000;
 
 
 
-export default {
-  get serverUrl() {
-    return 'http://{this.host}:{this.port}';
-  }
+// export default {
+//   get serverUrl() {
+//     return 'http://{this.host}:{this.port}';
+//   }
